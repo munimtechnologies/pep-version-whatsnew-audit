@@ -1,0 +1,748 @@
+number,status,type,topic,python_version,header,first_py3_head,first_py3_mention,heads,mentions,title
+0,Active,Informational,,,,,,,,Index of Python Enhancement Proposals (PEPs)
+1,Active,Process,,,,,,,2.0,PEP Purpose and Guidelines
+2,Active,Process,,,,,,,,Procedure for Adding New Modules
+3,Withdrawn,Process,,,,,,,,Guidelines for Handling Bug Reports
+4,Active,Process,,,,,3.0,,3.0,Deprecation of Standard Modules
+5,Superseded,Process,,,,,,,2.1,Guidelines for Language Evolution
+6,Superseded,Process,,,,,,,,Bug Fix Releases
+7,Active,Process,,,,,3.6,,3.6,Style Guide for C Code
+8,Active,Process,,,,,3.0,,3.0,Style Guide for Python Code
+9,Withdrawn,Process,,,,,,,,Sample Plaintext PEP Template
+10,Active,Process,,,,,,,,Voting Guidelines
+11,Active,Process,,,,,3.0,,3.0;3.7;3.11;3.13;3.14,CPython platform support
+12,Active,Process,,,,,,,,Sample reStructuredText PEP Template
+13,Active,Process,governance,,,,,,,Python Language Governance
+20,Active,Informational,,,,,,,,The Zen of Python
+42,Withdrawn,Process,,,,,,,,Feature Requests
+100,Final,Standards Track,,2.0,2.0,,,,2.0,Python Unicode Integration
+101,Active,Informational,,,,,,,,Doing Python Releases 101
+102,Superseded,Informational,,,,,,,,Doing Python Micro Releases
+103,Withdrawn,Informational,,,,,,,,Collecting information about git
+160,Final,Informational,release,1.6,1.6,,,,,Python 1.6 Release Schedule
+200,Final,Informational,release,2.0,2.0,,,,,Python 2.0 Release Schedule
+201,Final,Standards Track,,2.0,2.0,,,,2.0,Lockstep Iteration
+202,Final,Standards Track,,2.0,2.0,,,,,List Comprehensions
+203,Final,Standards Track,,2.0,2.0,,,,,Augmented Assignments
+204,Rejected,Standards Track,,2.0,2.0,,,,,Range Literals
+205,Final,Standards Track,,2.1,2.1,,,2.1,2.1,Weak References
+206,Withdrawn,Informational,,,,,,,,Python Advanced Library
+207,Final,Standards Track,,2.1,2.1,,,2.1,2.1,Rich Comparisons
+208,Final,Standards Track,,2.1,2.1,,,2.1,2.1,Reworking the Coercion Model
+209,Withdrawn,Standards Track,,2.2,2.2,,,,,Multi-dimensional Arrays
+210,Rejected,Standards Track,,2.1,2.1,,,,,Decoupling the Interpreter Loop
+211,Rejected,Standards Track,,2.1,2.1,,,,,Adding A New Outer Product Operator
+212,Rejected,Standards Track,,2.1,2.1,,,,,Loop Counter Iteration
+213,Deferred,Standards Track,,2.1,2.1,,,,,Attribute Access Handlers
+214,Final,Standards Track,,2.0,2.0,,,,,Extended Print Statement
+215,Superseded,Standards Track,,2.1,2.1,,,,,String Interpolation
+216,Withdrawn,Informational,,,,,,,,Docstring Format
+217,Final,Standards Track,,2.1,2.1,,,2.1,2.1,Display Hook for Interactive Use
+218,Final,Standards Track,,2.2,2.2,,,2.3;2.4,2.3;2.4,Adding a Built-In Set Object Type
+219,Deferred,Standards Track,,2.1,2.1,,,,,Stackless Python
+220,Rejected,Informational,,,,,,,,"Coroutines, Generators, Continuations"
+221,Final,Standards Track,,2.0,2.0,,,,,Import As
+222,Deferred,Standards Track,,2.1,2.1,,,,,Web Library Enhancements
+223,Final,Standards Track,,2.0,2.0,,,,,Change the Meaning of ``\x`` Escapes
+224,Rejected,Standards Track,,2.1,2.1,,,,,Attribute Docstrings
+225,Rejected,Standards Track,,2.1,2.1,,,,2.0,Elementwise/Objectwise Operators
+226,Final,Informational,release,2.1,2.1,,,,,Python 2.1 Release Schedule
+227,Final,Standards Track,,2.1,2.1,,,2.1;2.2,2.1;2.2,Statically Nested Scopes
+228,Withdrawn,Standards Track,,,,,,,,Reworking Python's Numeric Model
+229,Final,Standards Track,,2.1,2.1,,,2.1,2.1,Using Distutils to Build Python
+230,Final,Standards Track,,2.1,2.1,,,2.1,2.1,Warning Framework
+231,Rejected,Standards Track,,2.1,2.1,,,,,__findattr__()
+232,Final,Standards Track,,2.1,2.1,,,2.1,2.1,Function Attributes
+233,Deferred,Standards Track,,2.1,2.1,,,,,Python Online Help
+234,Final,Standards Track,,2.1,2.1,,,2.2,2.2,Iterators
+235,Final,Standards Track,,2.1,2.1,,,2.1,2.1,Import on Case-Insensitive Platforms
+236,Final,Standards Track,,2.1,2.1,,,2.1,2.1,Back to the __future__
+237,Final,Standards Track,,2.2,2.2,,3.0,2.2;2.4,2.2;2.4;3.0,Unifying Long Integers and Integers
+238,Final,Standards Track,,2.2,2.2,,3.0,2.2,2.2;3.0,Changing the Division Operator
+239,Rejected,Standards Track,,2.2,2.2,,,,,Adding a Rational Type to Python
+240,Rejected,Standards Track,,2.2,2.2,,,,,Adding a Rational Literal to Python
+241,Superseded,Standards Track,packaging,,,,,2.1,2.1,Metadata for Python Software Packages
+242,Withdrawn,Standards Track,,2.2,2.2,,,,,Numeric Kinds
+243,Withdrawn,Standards Track,packaging,2.1,2.1,,,,2.1,Module Repository Upload Mechanism
+244,Rejected,Standards Track,,2.1,2.1,,,,,The ``directive`` statement
+245,Rejected,Standards Track,,2.2,2.2,,,,,Python Interface Syntax
+246,Rejected,Standards Track,,2.5,2.5,,,,,Object Adaptation
+247,Final,Informational,,,,,3.4,,3.4,API for Cryptographic Hash Functions
+248,Final,Informational,,,,,,,,Python Database API Specification v1.0
+249,Final,Informational,,,,,3.12,,2.5;3.12,Python Database API Specification v2.0
+250,Final,Standards Track,,2.2,2.2,,,,,Using site-packages on Windows
+251,Final,Informational,release,2.2,2.2,,,,,Python 2.2 Release Schedule
+252,Final,Standards Track,,2.2,2.2,,,2.2,2.2,Making Types Look More Like Classes
+253,Final,Standards Track,,2.2,2.2,,,,2.2,Subtyping Built-in Types
+254,Rejected,Standards Track,,2.2,2.2,,,,,Making Classes Look More Like Types
+255,Final,Standards Track,,2.2,2.2,,,2.2;2.3,2.2;2.3,Simple Generators
+256,Rejected,Standards Track,,,,,,,,Docstring Processing System Framework
+257,Active,Informational,,,,,,,,Docstring Conventions
+258,Rejected,Standards Track,,,,,,,,Docutils Design Specification
+259,Rejected,Standards Track,,2.2,2.2,,,,,Omit printing newline after newline
+260,Final,Standards Track,,2.2,2.2,,,,,Simplify xrange()
+261,Final,Standards Track,,2.2,2.2,,,,2.2,"Support for ""wide"" Unicode characters"
+262,Rejected,Standards Track,packaging,,,,,,,A Database of Installed Python Packages
+263,Final,Standards Track,,2.3,2.3,,,2.3,2.3;2.5,Defining Python Source Code Encodings
+264,Final,Standards Track,,2.2,2.2,,,,2.2,Future statements in simulated shells
+265,Rejected,Standards Track,,2.2,2.2,,,,,Sorting Dictionaries by Value
+266,Withdrawn,Standards Track,,2.3,2.3,,,,,Optimizing Global Variable/Attribute Access
+267,Deferred,Standards Track,,2.2,2.2,,,,,Optimized Access to Module Namespaces
+268,Rejected,Standards Track,,2.x,,,,,,Extended HTTP functionality and WebDAV
+269,Deferred,Standards Track,,2.2,2.2,,,,,Pgen Module for Python
+270,Rejected,Standards Track,,2.2,2.2,,,,,uniq method for list objects
+271,Rejected,Standards Track,,2.2,2.2,,,,,Prefixing sys.path by command line option
+272,Final,Informational,,,,,,,,API for Block Encryption Algorithms v1.0
+273,Final,Standards Track,,2.3,2.3,,,2.3,2.3,Import Modules from Zip Archives
+274,Final,Standards Track,,"2.7, 3.0",2.7;3.0,,3.0,,3.0,Dict Comprehensions
+275,Rejected,Standards Track,,2.6,2.6,,,,,Switching on Multiple Values
+276,Rejected,Standards Track,,2.3,2.3,,,,,Simple Iterator for ints
+277,Final,Standards Track,,2.3,2.3,,,2.3,2.3,Unicode file name support for Windows NT
+278,Final,Standards Track,,2.3,2.3,,,2.3,2.3,Universal Newline Support
+279,Final,Standards Track,,2.3,2.3,,,2.3,2.3,The enumerate() built-in function
+280,Deferred,Standards Track,,2.3,2.3,,,,,Optimizing access to globals
+281,Rejected,Standards Track,,2.3,2.3,,,,,Loop Counter Iteration with range and xrange
+282,Final,Standards Track,,2.3,2.3,,,2.3,2.3,A Logging System
+283,Final,Informational,release,2.3,2.3,,,,,Python 2.3 Release Schedule
+284,Rejected,Standards Track,,2.3,2.3,,,,,Integer for-loops
+285,Final,Standards Track,,2.3,2.3,,,2.3,2.3,Adding a bool type
+286,Deferred,Standards Track,,2.3,2.3,,,,,Enhanced Argument Tuples
+287,Active,Informational,,,,,,,,reStructuredText Docstring Format
+288,Withdrawn,Standards Track,,2.5,2.5,,,,2.5,Generators Attributes and Exceptions
+289,Final,Standards Track,,2.4,2.4,,,2.4,2.4,Generator Expressions
+290,Active,Informational,,,,,,,,Code Migration and Modernization
+291,Superseded,Informational,,2.3,2.3,,,,,Backward Compatibility for the Python 2 Standard Library
+292,Final,Standards Track,,2.4,2.4,,,2.4,2.4,Simpler String Substitutions
+293,Final,Standards Track,,2.3,2.3,,,2.3,2.3,Codec Error Handling Callbacks
+294,Rejected,Standards Track,,2.5,2.5,,,,,Type Names in the types Module
+295,Rejected,Standards Track,,3.0,3.0,,,,,Interpretation of multiline string constants
+296,Withdrawn,Standards Track,,2.3,2.3,,,,,Adding a bytes Object Type
+297,Rejected,Standards Track,,2.6,2.6,,,,,Support for System Upgrades
+298,Withdrawn,Standards Track,,2.3,2.3,,,,,The Locked Buffer Interface
+299,Rejected,Standards Track,,2.3,2.3,,,,,Special __main__() function in modules
+301,Final,Standards Track,packaging,2.3,2.3,,,2.3,2.3,Package Index and Metadata for Distutils
+302,Final,Standards Track,,2.3,2.3,,3.1,2.3,2.3;2.5;2.6;3.1;3.3,New Import Hooks
+303,Rejected,Standards Track,,2.3,2.3,,,,,Extend divmod() for Multiple Divisors
+304,Withdrawn,Standards Track,,,,,,,,Controlling Generation of Bytecode Files
+305,Final,Standards Track,,2.3,2.3,,,2.3,2.3,CSV File API
+306,Withdrawn,Informational,,,,,,,,How to Change Python's Grammar
+307,Final,Standards Track,,2.3,2.3,,,2.3,2.3,Extensions to the pickle protocol
+308,Final,Standards Track,,2.5,2.5,,,2.5,2.5,Conditional Expressions
+309,Final,Standards Track,,2.5,2.5,,,2.5,2.5,Partial Function Application
+310,Rejected,Standards Track,,2.4,2.4,,,,,Reliable Acquisition/Release Pairs
+311,Final,Standards Track,,2.3,2.3,,,,,Simplified Global Interpreter Lock Acquisition for Extensions
+312,Deferred,Standards Track,,2.4,2.4,,,,,Simple Implicit Lambda
+313,Rejected,Standards Track,,2.4,2.4,,,,,Adding Roman Numeral Literals to Python
+314,Superseded,Standards Track,packaging,2.5,2.5,,,2.5,2.5,Metadata for Python Software Packages 1.1
+315,Rejected,Standards Track,,2.5,2.5,,,,,Enhanced While Loop
+316,Deferred,Standards Track,,,,,,,,Programming by Contract for Python
+317,Rejected,Standards Track,,2.4,2.4,,,,,Eliminate Implicit Exception Instantiation
+318,Final,Standards Track,,2.4,2.4,,,2.4,2.4,Decorators for Functions and Methods
+319,Rejected,Standards Track,,2.4,2.4,,,,,Python Synchronize/Asynchronize Block
+320,Final,Informational,release,2.4,2.4,,,,,Python 2.4 Release Schedule
+321,Withdrawn,Standards Track,,2.4,2.4,,,,,Date/Time Parsing and Formatting
+322,Final,Standards Track,,2.4,2.4,,,2.4,2.4,Reverse Iteration
+323,Deferred,Standards Track,,2.5,2.5,,,,,Copyable Iterators
+324,Final,Standards Track,,2.4,2.4,,,2.4,2.4,subprocess - New process module
+325,Rejected,Standards Track,,2.4,2.4,,,,2.5,Resource-Release Support for Generators
+326,Rejected,Standards Track,,2.4,2.4,,,,,A Case for Top and Bottom Values
+327,Final,Standards Track,,2.4,2.4,,,2.4,2.4,Decimal Data Type
+328,Final,Standards Track,,"2.4, 2.5, 2.6",2.4;2.5;2.6,,3.0,2.4;2.5,2.4;2.5;3.0;3.3,Imports: Multi-Line and Absolute/Relative
+329,Rejected,Standards Track,,2.4,2.4,,,,,Treating Builtins as Constants in the Standard Library
+330,Rejected,Standards Track,,2.6,2.6,,,,,Python Bytecode Verification
+331,Final,Standards Track,,2.4,2.4,,,2.4,2.4,Locale-Independent Float/String Conversions
+332,Rejected,Standards Track,,2.5,2.5,,,,,Byte vectors and String/Unicode Unification
+333,Final,Informational,,,,,,,2.5,Python Web Server Gateway Interface v1.0
+334,Withdrawn,Standards Track,,3.0,3.0,,,,,Simple Coroutines via SuspendIteration
+335,Rejected,Standards Track,,3.3,3.3,,,,,Overloadable Boolean Operators
+336,Rejected,Standards Track,,,,,,,,Make None Callable
+337,Deferred,Standards Track,,2.5,2.5,,,,,Logging Usage in the Standard Library
+338,Final,Standards Track,,2.5,2.5,,,2.5,2.5,Executing modules as scripts
+339,Withdrawn,Informational,,,,,,,2.5,Design of the CPython Compiler
+340,Rejected,Standards Track,,,,,,,,Anonymous Block Statements
+341,Final,Standards Track,,2.5,2.5,,,2.5,2.5,Unifying try-except and try-finally
+342,Final,Standards Track,,2.5,2.5,,,2.5,2.5,Coroutines via Enhanced Generators
+343,Final,Standards Track,,2.5,2.5,,,2.5;2.6,2.5;2.6,"The ""with"" Statement"
+344,Superseded,Standards Track,,2.5,2.5,,,,,Exception Chaining and Embedded Tracebacks
+345,Superseded,Standards Track,packaging,2.7,2.7,,,,,Metadata for Python Software Packages 1.2
+346,Withdrawn,Standards Track,,2.5,2.5,,,,,"User Defined (""``with``"") Statements"
+347,Final,Process,,,,,,,2.5,Migrating the Python CVS to Subversion
+348,Rejected,Standards Track,,,,,,,,Exception Reorganization for Python 3.0
+349,Rejected,Standards Track,,2.5,2.5,,,,,Allow str() to return unicode strings
+350,Rejected,Informational,,,,,,,,Codetags
+351,Rejected,Standards Track,,2.5,2.5,,,,,The freeze protocol
+352,Final,Standards Track,,2.5,2.5,,3.0,2.5,2.5;2.6;3.0,Required Superclass for Exceptions
+353,Final,Standards Track,,2.5,2.5,,3.10,2.5,2.5;3.10,Using ssize_t as the index type
+354,Superseded,Standards Track,,2.6,2.6,,,,,Enumerations in Python
+355,Rejected,Standards Track,,2.5,2.5,,,,,Path - Object oriented filesystem paths
+356,Final,Informational,release,2.5,2.5,,,,2.5,Python 2.5 Release Schedule
+357,Final,Standards Track,,2.5,2.5,,,2.5,2.5,Allowing Any Object to be Used for Slicing
+358,Final,Standards Track,,"2.6, 3.0",2.6;3.0,,,,,"The ""bytes"" Object"
+359,Withdrawn,Standards Track,,2.6,2.6,,,,,"The ""make"" Statement"
+360,Final,Process,,,,,,,,Externally Maintained Packages
+361,Final,Informational,release,"2.6, 3.0",2.6;3.0,,,,2.6,Python 2.6 and 3.0 Release Schedule
+362,Final,Standards Track,,3.3,3.3,3.3,3.3,3.3,3.3,Function Signature Object
+363,Rejected,Standards Track,,,,,,,,Syntax For Dynamic Attribute Access
+364,Withdrawn,Standards Track,,2.6,2.6,,,,,Transitioning to the Py3K Standard Library
+365,Rejected,Standards Track,packaging,,,,,,,Adding the pkg_resources module
+366,Final,Standards Track,,"2.6, 3.0",2.6;3.0,,3.3,2.6,2.6;3.3,Main module explicit relative imports
+367,Superseded,Standards Track,,2.6,2.6,,,,,New Super
+368,Deferred,Standards Track,,"2.6, 3.0",2.6;3.0,,,,,Standard image protocol and class
+369,Withdrawn,Standards Track,,"2.6, 3.0",2.6;3.0,,,,,Post import hooks
+370,Final,Standards Track,,"2.6, 3.0",2.6;3.0,,,2.6,2.6,Per user site-packages directory
+371,Final,Standards Track,,"2.6, 3.0",2.6;3.0,,,2.6,2.6,Addition of the multiprocessing package to the standard library
+372,Final,Standards Track,,"2.7, 3.1",2.7;3.1,3.1,3.1,2.7;3.1,2.7;3.1,Adding an ordered dictionary to collections
+373,Final,Informational,release,2.7,2.7,,,,2.7,Python 2.7 Release Schedule
+374,Final,Process,,,,,,,,Choosing a distributed VCS for the Python project
+375,Final,Informational,release,3.1,3.1,,,,,Python 3.1 Release Schedule
+376,Final,Standards Track,packaging,"2.7, 3.2",2.7;3.2,,,,,Database of Installed Python Distributions
+377,Rejected,Standards Track,,"2.7, 3.1",2.7;3.1,,,,,Allow __enter__() methods to skip the statement body
+378,Final,Standards Track,,"2.7, 3.1",2.7;3.1,3.1,3.1,2.7;3.1,2.7;3.1,Format Specifier for Thousands Separator
+379,Withdrawn,Standards Track,,"2.7, 3.2",2.7;3.2,,,,,Adding an Assignment Expression
+380,Final,Standards Track,,3.3,3.3,3.3,3.3,3.3,3.3,Syntax for Delegating to a Subgenerator
+381,Withdrawn,Standards Track,packaging,,,,,,,Mirroring infrastructure for PyPI
+382,Rejected,Standards Track,,3.2,3.2,,,,,Namespace Packages
+383,Final,Standards Track,,3.1,3.1,,,,,Non-decodable Bytes in System Character Interfaces
+384,Final,Standards Track,,3.2,3.2,3.2,3.2,3.2,3.2;3.9;3.10,Defining a Stable ABI
+385,Final,Process,,,,,3.2,,3.2,Migrating from Subversion to Mercurial
+386,Superseded,Standards Track,packaging,,,,,,,Changing the version comparison module in Distutils
+387,Active,Process,,,,,,,,Backwards Compatibility Policy
+389,Final,Standards Track,,"2.7, 3.2",2.7;3.2,3.2,3.2,2.7;3.2,2.7;3.2,argparse - New Command Line Parsing Module
+390,Rejected,Standards Track,packaging,"2.7, 3.2",2.7;3.2,,,,,Static metadata for Distutils
+391,Final,Standards Track,,"2.7, 3.2",2.7;3.2,3.2,3.2,2.7;3.2,2.7;3.2,Dictionary-Based Configuration For Logging
+392,Final,Informational,release,3.2,3.2,,3.2,,3.2,Python 3.2 Release Schedule
+393,Final,Standards Track,,3.3,3.3,3.3,3.3,3.3,3.3;3.9;3.10,Flexible String Representation
+394,Active,Informational,,,,,,,,"The ""python"" Command on Unix-Like Systems"
+395,Withdrawn,Standards Track,,3.4,3.4,,,,,Qualified Names for Modules
+396,Withdrawn,Informational,packaging,,,,,,,Module Version Numbers
+397,Final,Standards Track,,3.3,3.3,3.3,3.3,3.3,3.3;3.4;3.5,Python launcher for Windows
+398,Final,Informational,release,3.3,3.3,,3.3,,3.3,Python 3.3 Release Schedule
+399,Final,Informational,,3.3,3.3,,,,,Pure Python/C Accelerator Module Compatibility Requirements
+400,Deferred,Standards Track,,3.3,3.3,,,,,Deprecate codecs.StreamReader and codecs.StreamWriter
+401,Rejected,Process,,,,,,,,BDFL Retirement
+402,Rejected,Standards Track,packaging,3.3,3.3,,,,,Simplified Package Layout and Partitioning
+403,Deferred,Standards Track,,3.4,3.4,,,,,"General purpose decorator clause (aka ""@in"" clause)"
+404,Final,Informational,release,2.8,2.8,,,,,Python 2.8 Un-release Schedule
+405,Final,Standards Track,packaging,3.3,3.3,3.3,3.3,3.3,3.3,Python Virtual Environments
+406,Withdrawn,Standards Track,,3.4,3.4,,,,,Improved Encapsulation of Import State
+407,Deferred,Process,,,,,,,,New release cycle and introducing long-term support versions
+408,Rejected,Standards Track,,3.3,3.3,,,,,Standard library __preview__ package
+409,Final,Standards Track,,3.3,3.3,3.3,3.3,3.3,3.3,Suppressing exception context
+410,Rejected,Standards Track,,3.3,3.3,,,,,Use decimal.Decimal type for timestamps
+411,Superseded,Informational,,3.3,3.3,,,,,Provisional packages in the Python standard library
+412,Final,Standards Track,,3.3,3.3,3.3,3.3,3.3,3.3,Key-Sharing Dictionary
+413,Withdrawn,Process,,,,,,,,Faster evolution of the Python Standard Library
+414,Final,Standards Track,,3.3,3.3,3.3,3.3,3.3,3.3,Explicit Unicode Literal for Python 3.3
+415,Final,Standards Track,,3.3,3.3,,,,,Implement context suppression with exception attributes
+416,Rejected,Standards Track,,3.3,3.3,,,,,Add a frozendict builtin type
+417,Final,Standards Track,,3.3,3.3,,,,,Including mock in the Standard Library
+418,Final,Standards Track,,3.3,3.3,,3.3,,3.3,"Add monotonic time, performance counter, and process time functions"
+419,Deferred,Standards Track,,3.3,3.3,,,,,Protecting cleanup statements from interruptions
+420,Final,Standards Track,,3.3,3.3,3.3,3.3,3.3,3.3,Implicit Namespace Packages
+421,Final,Standards Track,,3.3,3.3,3.3,3.3,3.3,3.3,Adding sys.implementation
+422,Withdrawn,Standards Track,,3.5,3.5,,,,,Simpler customisation of class creation
+423,Deferred,Informational,packaging,,,,,,,Naming conventions and recipes related to packaging
+424,Final,Standards Track,,3.4,3.4,,3.4,,3.4,A method for exposing a length hint
+425,Final,Standards Track,packaging,3.4,3.4,,,,,Compatibility Tags for Built Distributions
+426,Withdrawn,Informational,packaging,,,,,,,Metadata for Python Software Packages 2.0
+427,Final,Standards Track,packaging,,,,,,,The Wheel Binary Package Format 1.0
+428,Final,Standards Track,,3.4,3.4,,3.4,,3.4,The pathlib module -- object-oriented filesystem paths
+429,Final,Informational,release,3.4,3.4,,3.4,,3.4,Python 3.4 Release Schedule
+430,Final,Informational,,,,,,,,Migrating to Python 3 as the default online documentation
+431,Superseded,Standards Track,,,,,,,,Time zone support improvements
+432,Withdrawn,Standards Track,,,,,3.7,,3.7,Restructuring the CPython startup sequence
+433,Superseded,Standards Track,,3.4,3.4,,,,,Easier suppression of file descriptor inheritance
+434,Active,Informational,,,,,,2.7,2.7,IDLE Enhancement Exception for All Branches
+435,Final,Standards Track,,3.4,3.4,,3.4,,3.4,Adding an Enum type to the Python standard library
+436,Final,Standards Track,,3.4,3.4,3.4,3.4,3.4,3.4,The Argument Clinic DSL
+437,Rejected,Standards Track,,3.4,3.4,,,,,"A DSL for specifying signatures, annotations and argument converters"
+438,Superseded,Process,packaging,,,,,,,Transitioning to release-file hosting on PyPI
+439,Rejected,Standards Track,packaging,3.4,3.4,,,,,Inclusion of implicit pip bootstrap in Python installation
+440,Final,Standards Track,packaging,,,,,,,Version Identification and Dependency Specification
+441,Final,Standards Track,,3.5,3.5,,3.5,,3.5,Improving Python ZIP Application Support
+442,Final,Standards Track,,3.4,3.4,3.4,3.4,3.4,3.4;3.9,Safe object finalization
+443,Final,Standards Track,,3.4,3.4,,3.4,,3.4,Single-dispatch generic functions
+444,Deferred,Informational,,,,,,,,Python Web3 Interface
+445,Final,Standards Track,,3.4,3.4,3.4,3.4,3.4,3.4,Add new APIs to customize Python memory allocators
+446,Final,Standards Track,,3.4,3.4,3.4,3.4,3.4,3.4,Make newly created file descriptors non-inheritable
+447,Deferred,Standards Track,,,,,,,,Add __getdescriptor__ method to metaclass
+448,Final,Standards Track,,3.5,3.5,3.5,3.5,3.5,3.5;3.15,Additional Unpacking Generalizations
+449,Final,Process,packaging,,,,,,,Removal of the PyPI Mirror Auto Discovery and Naming Scheme
+450,Final,Standards Track,,3.4,3.4,,3.4,,3.4,Adding A Statistics Module To The Standard Library
+451,Final,Standards Track,,3.4,3.4,3.4,3.4,3.4,3.4;3.5;3.10;3.12,A ModuleSpec Type for the Import System
+452,Final,Informational,,,,,,,,API for Cryptographic Hash Functions v2.0
+453,Final,Standards Track,,,,3.4,3.4,2.7;3.4,2.7;3.4,Explicit bootstrapping of pip in Python installations
+454,Final,Standards Track,,3.4,3.4,,3.4,,3.4,Add a new tracemalloc module to trace Python memory allocations
+455,Rejected,Standards Track,,3.5,3.5,,,,,Adding a key-transforming dictionary to collections
+456,Final,Standards Track,,3.4,3.4,3.4,3.4,3.4,3.4;3.15,Secure and interchangeable hash algorithm
+457,Final,Informational,,,,,,,,Notation For Positional-Only Parameters
+458,Accepted,Standards Track,packaging,,,,,,,Secure PyPI downloads with signed repository metadata
+459,Withdrawn,Standards Track,packaging,,,,,,,Standard Metadata Extensions for Python Software Packages
+460,Withdrawn,Standards Track,,3.5,3.5,,,,,Add binary interpolation and formatting
+461,Final,Standards Track,,3.5,3.5,3.5,3.5,3.5,3.5,Adding % formatting to bytes and bytearray
+462,Withdrawn,Process,,,,,,,,Core development workflow automation for CPython
+463,Rejected,Standards Track,,3.5,3.5,,,,,Exception-catching expressions
+464,Final,Process,packaging,,,,,,,Removal of the PyPI Mirror Authenticity API
+465,Final,Standards Track,,3.5,3.5,3.5,3.5,3.5,3.5,A dedicated infix operator for matrix multiplication
+466,Final,Standards Track,,2.7.9,2.7,,,2.7,2.7,Network Security Enhancements for Python 2.7.x
+467,Draft,Standards Track,,3.15,3.15,,,,,Minor API improvements for binary sequences
+468,Final,Standards Track,,3.6,3.6,3.6,3.6,3.6,3.6,Preserving the order of \*\*kwargs in a function.
+469,Withdrawn,Standards Track,,3.5,3.5,,,,,Migration of dict iteration code to Python 3
+470,Final,Process,packaging,,,,,,,Removing External Hosting Support on PyPI
+471,Final,Standards Track,,3.5,3.5,3.5,3.5,3.5,3.5,os.scandir() function -- a better and faster directory iterator
+472,Rejected,Standards Track,,3.6,3.6,,,,,Support for indexing with keyword arguments
+473,Rejected,Standards Track,,,,,,,,Adding structured data to built-in exceptions
+474,Withdrawn,Process,,,,,,,,Creating forge.python.org
+475,Final,Standards Track,,3.5,3.5,3.5,3.5,3.5,3.5,Retry system calls failing with EINTR
+476,Final,Standards Track,,"2.7.9, 3.4.3, 3.5",2.7;3.4;3.5,3.4,3.4,2.7;3.4,2.7;3.4,Enabling certificate verification by default for stdlib http clients
+477,Final,Standards Track,,,,,,2.7,2.7,Backport ensurepip (PEP 453) to Python 2.7
+478,Final,Informational,release,3.5,3.5,,3.5,,3.5,Python 3.5 Release Schedule
+479,Final,Standards Track,,3.5,3.5,3.5,3.5,3.5,3.5;3.7,Change StopIteration handling inside generators
+480,Draft,Standards Track,packaging,,,,,,,Surviving a Compromise of PyPI: End-to-end signing of packages
+481,Withdrawn,Process,,,,,,,,"Migrate CPython to Git, Github, and Phabricator"
+482,Final,Informational,typing,,,,,,,Literature Overview for Type Hints
+483,Final,Informational,typing,,,,3.5,,3.5,The Theory of Type Hints
+484,Final,Standards Track,typing,3.5,3.5,3.5,3.5,3.5,3.5;3.6;3.7;3.8;3.10;3.11;3.12,Type Hints
+485,Final,Standards Track,,3.5,3.5,3.5,3.5,3.5,3.5,A Function for testing approximate equality
+486,Final,Standards Track,,3.5,3.5,3.5,3.5,3.5,3.5,Make the Python Launcher aware of virtual environments
+487,Final,Standards Track,,3.6,3.6,3.6,3.6,3.6,3.6,Simpler customisation of class creation
+488,Final,Standards Track,,3.5,3.5,3.5,3.5,3.5,3.5,Elimination of PYO files
+489,Final,Standards Track,,3.5,3.5,3.5,3.5,3.5,3.5;3.9,Multi-phase extension module initialization
+490,Rejected,Standards Track,,3.6,3.6,,,,,Chain exceptions at C level
+491,Deferred,Standards Track,packaging,,,,,,,The Wheel Binary Package Format 1.9
+492,Final,Standards Track,,3.5,3.5,3.5,3.5,3.5,3.5;3.6,Coroutines with async and await syntax
+493,Final,Standards Track,,2.7.12,2.7,,,2.7,2.7,HTTPS verification migration tools for Python 2.7
+494,Final,Informational,release,3.6,3.6,,3.6,,3.6,Python 3.6 Release Schedule
+495,Final,Standards Track,,3.6,3.6,3.6,3.6,3.6,3.6,Local Time Disambiguation
+496,Rejected,Informational,packaging,,,,,,,Environment Markers
+497,Rejected,Process,,,,,,,,A standard mechanism for backward compatibility
+498,Final,Standards Track,,3.6,3.6,3.6,3.6,3.6,3.6,Literal String Interpolation
+499,Deferred,Standards Track,,3.10,3.10,,,,,``python -m foo`` should also bind ``'foo'`` in ``sys.modules``
+500,Rejected,Standards Track,,,,,,,,A protocol for delegating datetime methods to their tzinfo implementations
+501,Withdrawn,Standards Track,,3.12,3.12,,,,,General purpose template literal strings
+502,Rejected,Informational,,3.6,3.6,,,,,String Interpolation - Extended Discussion
+503,Final,Standards Track,packaging,,,,,,,Simple Repository API
+504,Withdrawn,Standards Track,,3.6,3.6,,,,,Using the System RNG by default
+505,Deferred,Standards Track,,3.8,3.8,,,,,None-aware operators
+506,Final,Standards Track,,3.6,3.6,,3.6,,3.6,Adding A Secrets Module To The Standard Library
+507,Rejected,Process,,,,,,,,Migrate CPython to Git and GitLab
+508,Final,Standards Track,packaging,,,,,,,Dependency specification for Python Software Packages
+509,Superseded,Standards Track,,3.6,3.6,,,,,Add a private version to dict
+510,Rejected,Standards Track,,3.6,3.6,,,,,Specialize functions with guards
+511,Rejected,Standards Track,,3.6,3.6,,3.6,,3.6,API for code transformers
+512,Final,Process,,,,,,,,Migrating from hg.python.org to GitHub
+513,Superseded,Informational,packaging,,,,,,,A Platform Tag for Portable Linux Built Distributions
+514,Active,Informational,,,,,3.11,,3.11,Python registration in the Windows registry
+515,Final,Standards Track,,3.6,3.6,3.6,3.6,3.6,3.6,Underscores in Numeric Literals
+516,Rejected,Standards Track,packaging,,,,,,,Build system abstraction for pip/conda etc
+517,Final,Standards Track,packaging,,,,,,,A build-system independent format for source trees
+518,Final,Standards Track,packaging,,,,,,,Specifying Minimum Build System Requirements for Python Projects
+519,Final,Standards Track,,3.6,3.6,3.6,3.6,3.6,3.6,Adding a file system path protocol
+520,Final,Standards Track,,3.6,3.6,3.6,3.6,3.6,3.6,Preserving Class Attribute Definition Order
+521,Withdrawn,Standards Track,,3.6,3.6,,,,,Managing global context via 'with' blocks in generators and coroutines
+522,Rejected,Standards Track,,3.6,3.6,,,,,Allow BlockingIOError in security sensitive APIs
+523,Final,Standards Track,,3.6,3.6,3.6,3.6,3.6,3.6;3.9;3.11;3.12,Adding a frame evaluation API to CPython
+524,Final,Standards Track,,3.6,3.6,,3.6,,3.6,Make os.urandom() blocking on Linux
+525,Final,Standards Track,,3.6,3.6,3.6,3.6,3.6,3.6,Asynchronous Generators
+526,Final,Standards Track,typing,3.6,3.6,3.6,3.6,3.6,3.6;3.7;3.8;3.10,Syntax for Variable Annotations
+527,Final,Standards Track,packaging,,,,,,,Removing Un(der)used file types/extensions on PyPI
+528,Final,Standards Track,,3.6,3.6,3.6,3.6,3.6,3.6,Change Windows console encoding to UTF-8
+529,Final,Standards Track,,3.6,3.6,3.6,3.6,3.6,3.6;3.8,Change Windows filesystem encoding to UTF-8
+530,Final,Standards Track,,3.6,3.6,3.6,3.6,3.6,3.6,Asynchronous Comprehensions
+531,Withdrawn,Standards Track,,3.7,3.7,,,,,Existence checking operators
+532,Deferred,Standards Track,,3.8,3.8,,,,,A circuit breaking protocol and binary operators
+533,Deferred,Standards Track,,,,,,,,Deterministic cleanup for iterators
+534,Withdrawn,Standards Track,,,,,,,,Improved Errors for Missing Standard Library Modules
+535,Deferred,Standards Track,,3.8,3.8,,,,,Rich comparison chaining
+536,Withdrawn,Standards Track,,3.7,3.7,,,,,Final Grammar for Literal String Interpolation
+537,Final,Informational,release,3.7,3.7,,,,,Python 3.7 Release Schedule
+538,Final,Standards Track,,3.7,3.7,3.7,3.7,3.7,3.7,Coercing the legacy C locale to a UTF-8 based locale
+539,Final,Standards Track,,3.7,3.7,3.7,3.7,3.7,3.7,A New C-API for Thread-Local Storage in CPython
+540,Final,Standards Track,,3.7,3.7,3.7,3.7,3.7,3.7,Add a new UTF-8 Mode
+541,Final,Process,packaging,,,,,,,Package Index Name Retention
+542,Rejected,Standards Track,,,,,,,,Dot Notation Assignment In Function Header
+543,Withdrawn,Standards Track,,3.7,3.7,,,,,A Unified TLS API for Python
+544,Final,Standards Track,typing,3.8,3.8,,3.8,,3.8,Protocols: Structural subtyping (static duck typing)
+545,Active,Process,governance,,,3.7,3.7,3.7,3.7,Python Documentation Translations
+546,Rejected,Standards Track,,2.7,2.7,,,,,Backport ssl.MemoryBIO and ssl.SSLObject to Python 2.7
+547,Deferred,Standards Track,,3.7,3.7,,,,,Running extension modules using the -m option
+548,Rejected,Standards Track,,3.7,3.7,,,,,More Flexible Loop Control
+549,Rejected,Standards Track,,3.7,3.7,,,,,Instance Descriptors
+550,Withdrawn,Standards Track,,3.7,3.7,,,,,Execution Context
+551,Withdrawn,Informational,,3.7,3.7,,,,,Security transparency in the Python runtime
+552,Final,Standards Track,,3.7,3.7,3.7,3.7,3.7,3.7;3.11,Deterministic pycs
+553,Final,Standards Track,,3.7,3.7,3.7,3.7,3.7,3.7,Built-in breakpoint()
+554,Superseded,Standards Track,,3.13,3.13,,3.12,,3.12,Multiple Interpreters in the Stdlib
+555,Withdrawn,Standards Track,,3.7,3.7,,,,,Context-local variables (contextvars)
+556,Deferred,Standards Track,,3.7,3.7,,,,,Threaded garbage collection
+557,Final,Standards Track,,3.7,3.7,,3.7,,3.7,Data Classes
+558,Withdrawn,Standards Track,,3.13,3.13,,,,,Defined semantics for locals()
+559,Rejected,Standards Track,,3.7,3.7,,,,,Built-in noop()
+560,Final,Standards Track,typing,3.7,3.7,3.7,3.7,3.7,3.7,Core support for typing module and generic types
+561,Final,Standards Track,"packaging, typing",3.7,3.7,,,,,Distributing and Packaging Type Information
+562,Final,Standards Track,,3.7,3.7,3.7,3.7,3.7,3.7,Module __getattr__ and __dir__
+563,Superseded,Standards Track,typing,3.7,3.7,3.7,3.7,3.7;3.11,3.7;3.11;3.14,Postponed Evaluation of Annotations
+564,Final,Standards Track,,3.7,3.7,3.7,3.7,3.7,3.7,Add new time functions with nanosecond resolution
+565,Final,Standards Track,,3.7,3.7,3.7,3.7,3.7,3.7,Show DeprecationWarning in __main__
+566,Final,Standards Track,packaging,3.x,,,,,,Metadata for Python Software Packages 2.1
+567,Final,Standards Track,,3.7,3.7,,3.7,,3.7,Context Variables
+568,Deferred,Standards Track,,3.8,3.8,,,,,Generator-sensitivity for Context Variables
+569,Final,Informational,release,3.8,3.8,,,,,Python 3.8 Release Schedule
+570,Final,Standards Track,,3.8,3.8,,3.8,,3.8,Python Positional-Only Parameters
+571,Superseded,Informational,packaging,,,,,,,The manylinux2010 Platform Tag
+572,Final,Standards Track,,3.8,3.8,,3.8,,3.8;3.12,Assignment Expressions
+573,Final,Standards Track,,3.9,3.9,,3.9,,3.9,Module State Access from C Extension Methods
+574,Final,Standards Track,,3.8,3.8,,3.8,,3.8,Pickle protocol 5 with out-of-band data
+575,Withdrawn,Standards Track,,3.8,3.8,,,,,Unifying function/method classes
+576,Withdrawn,Standards Track,,3.8,3.8,,,,,Rationalize Built-in function classes
+577,Withdrawn,Standards Track,,3.8,3.8,,,,,Augmented Assignment Expressions
+578,Final,Standards Track,,3.8,3.8,3.8,3.8,3.8,3.8,Python Runtime Audit Hooks
+579,Final,Informational,,,,,,,,Refactoring C functions and methods
+580,Rejected,Standards Track,,3.8,3.8,,,,,The C call protocol
+581,Final,Process,,,,,,,,Using GitHub Issues for CPython
+582,Rejected,Standards Track,packaging,3.12,3.12,,,,,Python local packages directory
+583,Withdrawn,Informational,,,,,,,,A Concurrency Memory Model for Python
+584,Final,Standards Track,,3.9,3.9,,3.9,,3.9,Add Union Operators To dict
+585,Final,Standards Track,typing,3.9,3.9,,3.9,,3.9;3.11,Type Hinting Generics In Standard Collections
+586,Final,Standards Track,typing,3.8,3.8,,3.8,,3.8;3.9;3.10,Literal Types
+587,Final,Standards Track,,3.8,3.8,3.8,3.8,3.8,3.8;3.11;3.13;3.14,Python Initialization Configuration
+588,Final,Informational,,,,,,,,GitHub Issues Migration Plan
+589,Final,Standards Track,typing,3.8,3.8,,3.8,,3.8,TypedDict: Type Hints for Dictionaries with a Fixed Set of Keys
+590,Final,Standards Track,,3.8,3.8,3.8,3.8,3.8,3.8;3.9;3.10;3.11;3.13,Vectorcall: a fast calling protocol for CPython
+591,Final,Standards Track,typing,3.8,3.8,,3.8,,3.8,Adding a final qualifier to typing
+592,Final,Standards Track,packaging,,,,,,,"Adding ""Yank"" Support to the Simple API"
+593,Final,Standards Track,typing,3.9,3.9,,3.9,,3.9,Flexible function and variable annotations
+594,Final,Standards Track,,3.11,3.11,3.13,3.11,3.13,3.11;3.12;3.13,Removing dead batteries from the standard library
+595,Withdrawn,Informational,,,,,,,,Improving bugs.python.org
+596,Final,Informational,release,3.9,3.9,,3.9,,3.9,Python 3.9 Release Schedule
+597,Final,Standards Track,,3.10,3.10,,3.10,,3.10,Add optional EncodingWarning
+598,Withdrawn,Informational,,3.9,3.9,,,,,Introducing incremental feature releases
+599,Superseded,Informational,packaging,,,,,,,The manylinux2014 Platform Tag
+600,Final,Standards Track,packaging,,,,,,,Future 'manylinux' Platform Tags for Portable Linux Built Distributions
+601,Rejected,Standards Track,,3.8,3.8,,,,,Forbid return/break/continue breaking out of finally
+602,Active,Process,,3.9,3.9,,3.9,,3.9;3.13,Annual Release Cycle for Python
+603,Draft,Standards Track,,,,,,,,Adding a frozenmap type to collections
+604,Final,Standards Track,typing,3.10,3.10,3.10,3.10,3.10,3.10,Allow writing union types as ``X | Y``
+605,Rejected,Informational,,3.9,3.9,,,,,A rolling feature release stream for CPython
+606,Rejected,Standards Track,,3.9,3.9,,,,,Python Compatibility Version
+607,Final,Informational,,3.9,3.9,,,,,Reducing CPython's Feature Delivery Latency
+608,Rejected,Standards Track,,3.9,3.9,,,,,Coordinated Python release
+609,Active,Process,"governance, packaging",,,,,,,Python Packaging Authority (PyPA) Governance
+610,Final,Standards Track,packaging,,,,,,,Recording the Direct URL Origin of installed distributions
+611,Withdrawn,Standards Track,,,,,,,,The one million limit
+612,Final,Standards Track,typing,3.10,3.10,3.10,3.10,3.10,3.10,Parameter Specification Variables
+613,Final,Standards Track,typing,3.10,3.10,3.10,3.10,3.10,3.10,Explicit Type Aliases
+614,Final,Standards Track,,3.9,3.9,,3.9,,3.9,Relaxing Grammar Restrictions On Decorators
+615,Final,Standards Track,,3.9,3.9,,3.9,,3.9,Support for the IANA Time Zone Database in the Standard Library
+616,Final,Standards Track,,3.9,3.9,,3.9,,3.9,String methods to remove prefixes and suffixes
+617,Final,Standards Track,,3.9,3.9,,3.9,,3.9;3.10;3.11;3.12,New PEG parser for CPython
+618,Final,Standards Track,,3.10,3.10,,3.10,,3.10,Add Optional Length-Checking To zip
+619,Final,Informational,release,3.10,3.10,,,,,Python 3.10 Release Schedule
+620,Withdrawn,Standards Track,,3.12,3.12,,,,,Hide implementation details from the C API
+621,Final,Standards Track,packaging,,,,,,,Storing project metadata in pyproject.toml
+622,Superseded,Standards Track,,3.10,3.10,,,,,Structural Pattern Matching
+623,Final,Standards Track,,3.10,3.10,,3.10,,3.10;3.12,Remove wstr from Unicode
+624,Final,Standards Track,,3.11,3.11,,3.10,,3.10;3.11,Remove Py_UNICODE encoder APIs
+625,Final,Standards Track,packaging,,,,,,,Filename of a Source Distribution
+626,Final,Standards Track,,3.10,3.10,3.10,3.10,3.10,3.10;3.12;3.15,Precise line numbers for debugging and other tools.
+627,Final,Standards Track,packaging,,,,,,,Recording installed projects
+628,Final,Standards Track,,3.6,3.6,,3.6,,3.6,Add ``math.tau``
+629,Final,Standards Track,packaging,,,,,,,Versioning PyPI's Simple API
+630,Final,Informational,,,,,3.14,,3.14,Isolating Extension Modules
+631,Superseded,Standards Track,packaging,,,,,,,Dependency specification in pyproject.toml based on PEP 508
+632,Final,Standards Track,,3.10,3.10,,3.10,,3.10;3.12,Deprecate distutils module
+633,Rejected,Standards Track,packaging,,,,,,,Dependency specification in pyproject.toml using an exploded TOML table
+634,Final,Standards Track,,3.10,3.10,3.10,3.10,3.10,3.10,Structural Pattern Matching: Specification
+635,Final,Informational,,3.10,3.10,,3.10,,3.10,Structural Pattern Matching: Motivation and Rationale
+636,Final,Informational,,3.10,3.10,,3.10,,3.10,Structural Pattern Matching: Tutorial
+637,Rejected,Standards Track,,3.10,3.10,,,,,Support for indexing with keyword arguments
+638,Draft,Standards Track,,,,,,,,Syntactic Macros
+639,Final,Standards Track,packaging,,,,,,,Improving License Clarity with Better Package Metadata
+640,Rejected,Standards Track,,3.10,3.10,,,,,Unused variable syntax
+641,Rejected,Standards Track,,3.10,3.10,,,,,Using an underscore in the version portion of Python 3.10 compatibility tags
+642,Rejected,Standards Track,,3.10,3.10,,,,,Explicit Pattern Syntax for Structural Pattern Matching
+643,Final,Standards Track,packaging,,,,,,,Metadata for Package Source Distributions
+644,Final,Standards Track,,3.10,3.10,,3.10,,3.10;3.12,Require OpenSSL 1.1.1 or newer
+645,Withdrawn,Standards Track,,,,,,,,Allow writing optional types as ``x?``
+646,Final,Standards Track,typing,3.11,3.11,3.11,3.11,3.11,3.11,Variadic Generics
+647,Final,Standards Track,typing,3.10,3.10,3.10,3.10,3.10,3.10,User-Defined Type Guards
+648,Rejected,Standards Track,,3.11,3.11,,,,,Extensible customizations of the interpreter at startup
+649,Final,Standards Track,typing,3.14,3.14,3.14,3.14,3.14,3.14,Deferred Evaluation Of Annotations Using Descriptors
+650,Withdrawn,Standards Track,packaging,,,,,,,Specifying Installer Requirements for Python Projects
+651,Rejected,Standards Track,,,,,,,,Robust Stack Overflow Handling
+652,Final,Standards Track,,3.10,3.10,3.10,3.10,3.10,3.10,Maintaining the Stable ABI
+653,Draft,Standards Track,,,,,,,,Precise Semantics for Pattern Matching
+654,Final,Standards Track,,3.11,3.11,3.11,3.11,3.11,3.11,Exception Groups and except*
+655,Final,Standards Track,typing,3.11,3.11,3.11,3.11,3.11,3.11,Marking individual TypedDict items as required or potentially-missing
+656,Final,Standards Track,packaging,,,,,,,Platform Tag for Linux Distributions Using Musl
+657,Final,Standards Track,,3.11,3.11,3.11,3.11,3.11,3.11,Include Fine Grained Error Locations in Tracebacks
+658,Accepted,Standards Track,packaging,,,,,,,Serve Distribution Metadata in the Simple Repository API
+659,Final,Informational,,,,3.11,3.11,3.11,3.11;3.14,Specializing Adaptive Interpreter
+660,Final,Standards Track,packaging,,,,,,,Editable installs for pyproject.toml based builds (wheel based)
+661,Final,Standards Track,,3.15,3.15,3.15,3.15,3.15,3.15,Sentinel Values
+662,Rejected,Standards Track,packaging,,,,,,,Editable installs via virtual wheels
+663,Rejected,Informational,,3.11,3.11,,,,,"Standardizing Enum str(), repr(), and format() behaviors"
+664,Active,Informational,release,3.11,3.11,,,,,Python 3.11 Release Schedule
+665,Rejected,Standards Track,packaging,,,,,,,A file format to list Python dependencies for reproducibility of an application
+666,Rejected,Standards Track,,2.2,2.2,,,,,Reject Foolish Indentation
+667,Final,Standards Track,,3.13,3.13,,3.13,,3.13;3.14;3.15,Consistent views of namespaces
+668,Final,Standards Track,packaging,,,,,,,Marking Python base environments as “externally managed”
+669,Final,Standards Track,,3.12,3.12,3.12,3.12,3.12,3.12;3.13,Low Impact Monitoring for CPython
+670,Final,Standards Track,,3.11,3.11,,3.11,,3.11,Convert macros to functions in the Python C API
+671,Draft,Standards Track,,3.12,3.12,,,,,Syntax for late-bound function argument defaults
+672,Active,Informational,,,,,,,,Unicode-related Security Considerations for Python
+673,Final,Standards Track,typing,3.11,3.11,3.11,3.11,3.11,3.11,Self Type
+674,Deferred,Standards Track,,3.12,3.12,,,,,Disallow using macros as l-values
+675,Final,Standards Track,typing,3.11,3.11,3.11,3.11,3.11,3.11,Arbitrary Literal String Type
+676,Active,Process,,,,,,,,PEP Infrastructure Process
+677,Rejected,Standards Track,typing,3.11,3.11,,,,,Callable Type Syntax
+678,Final,Standards Track,,3.11,3.11,3.11,3.11,3.11,3.11;3.12,Enriching Exceptions with Notes
+679,Rejected,Standards Track,,3.15,3.15,,,,,New assert statement syntax with parentheses
+680,Final,Standards Track,,3.11,3.11,,3.11,,3.11,tomllib: Support for Parsing TOML in the Standard Library
+681,Final,Standards Track,typing,3.11,3.11,3.11,3.11,3.11,3.11,Data Class Transforms
+682,Final,Standards Track,,3.11,3.11,,3.11,,3.11,Format Specifier for Signed Zero
+683,Final,Standards Track,,3.12,3.12,,3.12,,3.12,"Immortal Objects, Using a Fixed Refcount"
+684,Final,Standards Track,,3.12,3.12,3.12,3.12,3.12,3.12;3.14,A Per-Interpreter GIL
+685,Final,Standards Track,packaging,,,,,,,Comparison of extra names for optional distribution dependencies
+686,Final,Standards Track,,3.15,3.15,,3.15,,3.15,Make UTF-8 mode default
+687,Final,Standards Track,,3.12,3.12,,,,,Isolating modules in the standard library
+688,Final,Standards Track,typing,3.12,3.12,3.12,3.12,3.12,3.12,Making the buffer protocol accessible in Python
+689,Final,Standards Track,,3.12,3.12,,,,,Unstable C API tier
+690,Rejected,Standards Track,,3.12,3.12,,,,,Lazy Imports
+691,Final,Standards Track,packaging,,,,,,,JSON-based Simple API for Python Package Indexes
+692,Final,Standards Track,typing,3.12,3.12,3.12,3.12,3.12,3.12,Using TypedDict for more precise \*\*kwargs typing
+693,Active,Informational,release,3.12,3.12,,3.12,,3.12,Python 3.12 Release Schedule
+694,Draft,Standards Track,packaging,,,,,,,Upload 2.0 API for Python Package Indexes
+695,Final,Standards Track,typing,3.12,3.12,3.12,3.12,3.12,3.12,Type Parameter Syntax
+696,Final,Standards Track,typing,3.13,3.13,,3.13,,3.13,Type Defaults for Type Parameters
+697,Final,Standards Track,,3.12,3.12,,3.12,,3.12;3.15,Limited C API for Extending Opaque Types
+698,Final,Standards Track,typing,3.12,3.12,3.12,3.12,3.12,3.12,Override Decorator for Static Typing
+699,Final,Standards Track,,3.12,3.12,,3.12,,3.12,Remove private dict version field added in PEP 509
+700,Final,Standards Track,packaging,,,,,,,Additional Fields for the Simple API for Package Indexes
+701,Final,Standards Track,,3.12,3.12,3.12,3.12,3.12,3.12,Syntactic formalization of f-strings
+702,Final,Standards Track,typing,3.13,3.13,,3.13,,3.13,Marking deprecations using the type system
+703,Final,Standards Track,,3.13,3.13,,3.13,,3.13;3.14,Making the Global Interpreter Lock Optional in CPython
+704,Withdrawn,Standards Track,packaging,,,,,,,Require virtual environments by default for package installers
+705,Final,Standards Track,typing,3.13,3.13,,3.13,,3.13,TypedDict: Read-only items
+706,Final,Standards Track,,3.12,3.12,,3.8,,3.8;3.9;3.10;3.11;3.12,Filter for tarfile.extractall
+707,Rejected,Standards Track,,3.12,3.12,,,,,A simplified signature for __exit__ and __aexit__
+708,Rejected,Standards Track,packaging,,,,,,,Extending the Repository API to Mitigate Dependency Confusion Attacks
+709,Final,Standards Track,,3.12,3.12,3.12,3.12,3.12,3.12;3.13;3.16,Inlined comprehensions
+710,Draft,Standards Track,packaging,,,,,,,Recording the provenance of installed packages
+711,Draft,Standards Track,packaging,,,,,,,PyBI: a standard format for distributing Python Binaries
+712,Rejected,Standards Track,,3.13,3.13,,,,,"Adding a ""converter"" parameter to dataclasses.field"
+713,Rejected,Standards Track,,3.12,3.12,,,,,Callable Modules
+714,Accepted,Standards Track,packaging,,,,,,,Rename dist-info-metadata in the Simple API
+715,Final,Standards Track,packaging,,,,,,,Disabling bdist_egg distribution uploads on PyPI
+718,Draft,Standards Track,typing,3.16,3.16,,,,,Subscriptable functions
+719,Active,Informational,release,3.13,3.13,,3.13,,3.13,Python 3.13 Release Schedule
+720,Draft,Informational,,3.12,3.12,,,,,Cross-compiling Python packages
+721,Final,Standards Track,packaging,3.12,3.12,,,,,Using tarfile.data_filter for source distribution extraction
+722,Rejected,Standards Track,packaging,,,,,,,Dependency specification for single-file scripts
+723,Final,Standards Track,packaging,,,,,,,Inline script metadata
+724,Withdrawn,Standards Track,typing,3.13,3.13,,,,,Stricter Type Guards
+725,Draft,Standards Track,packaging,,,,,,,Specifying external dependencies in pyproject.toml
+726,Rejected,Standards Track,,3.13,3.13,,,,,Module ``__setattr__`` and ``__delattr__``
+727,Withdrawn,Standards Track,typing,3.13,3.13,,,,,Documentation in Annotated Metadata
+728,Final,Standards Track,typing,3.15,3.15,,3.15,,3.15,TypedDict with Typed Extra Items
+729,Active,Process,"governance, typing",,,,,,,Typing governance process
+730,Final,Standards Track,,3.13,3.13,,3.13,,3.13,Adding iOS as a supported platform
+731,Active,Process,governance,,,,,,,C API Working Group Charter
+732,Active,Process,governance,,,,,,,The Python Documentation Editorial Board
+733,Final,Informational,,,,,,,,An Evaluation of Python's Public C API
+734,Final,Standards Track,,3.14,3.14,3.14,3.14,3.14,3.14,Multiple Interpreters in the Stdlib
+735,Final,Standards Track,packaging,,,,,,,Dependency Groups in pyproject.toml
+736,Rejected,Standards Track,,3.14,3.14,,,,,Shorthand syntax for keyword arguments at invocation
+737,Final,Standards Track,,3.13,3.13,,3.13,,3.13,C API to format a type fully qualified name
+738,Final,Standards Track,,3.13,3.13,,3.13,,3.13,Adding Android as a supported platform
+739,Accepted,Standards Track,packaging,3.14,3.14,,3.14,,3.14,``build-details.json`` 1.0 — a static description file for Python build details
+740,Final,Standards Track,packaging,,,,,,,Index support for digital attestations
+741,Final,Standards Track,,3.14,3.14,,3.14,,3.14,Python Configuration C API
+742,Final,Standards Track,typing,3.13,3.13,,3.13,,3.13,Narrowing types with TypeIs
+743,Rejected,Standards Track,,3.15,3.15,,,,,Add Py_OMIT_LEGACY_API to the Python C API
+744,Draft,Informational,,3.13,3.13,,3.13,,3.13;3.14,JIT Compilation
+745,Active,Informational,release,3.14,3.14,,3.14,,3.14,Python 3.14 Release Schedule
+746,Draft,Standards Track,typing,3.15,3.15,,,,,Type checking Annotated metadata
+747,Final,Standards Track,typing,3.15,3.15,,3.15,,3.15,Annotating Type Forms
+748,Draft,Standards Track,,3.14,3.14,,,,,A Unified TLS API for Python
+749,Final,Standards Track,typing,3.14,3.14,3.14,3.14,3.14,3.14,Implementing PEP 649
+750,Final,Standards Track,,3.14,3.14,3.14,3.14,3.14,3.14,Template Strings
+751,Final,Standards Track,packaging,,,,,,,A file format to record Python dependencies for installation reproducibility
+752,Accepted,Standards Track,packaging,,,,,,,Implicit namespaces for package repositories
+753,Final,Standards Track,packaging,,,,,,,Uniform project URLs in core metadata
+754,Rejected,Standards Track,,2.3,2.3,,,,,IEEE 754 Floating Point Special Values
+755,Withdrawn,Process,packaging,,,,,,,Implicit namespace policy for PyPI
+756,Withdrawn,Standards Track,,3.14,3.14,,,,,Add PyUnicode_Export() and PyUnicode_Import() C functions
+757,Final,Standards Track,,3.14,3.14,,3.14,,3.14,C API to import-export Python integers
+758,Final,Standards Track,,3.14,3.14,3.14,3.14,3.14,3.14,Allow ``except`` and ``except*`` expressions without parentheses
+759,Withdrawn,Standards Track,packaging,,,,,,,External Wheel Hosting
+760,Withdrawn,Standards Track,,3.14,3.14,,,,,No More Bare Excepts
+761,Active,Process,,3.14,3.14,,3.14,,3.14,Deprecating PGP signatures for CPython artifacts
+762,Final,Informational,,3.13,3.13,,,,,REPL-acing the default REPL
+763,Withdrawn,Standards Track,packaging,,,,,,,Limiting deletions on PyPI
+764,Draft,Standards Track,typing,3.15,3.15,,,,,Inline typed dictionaries
+765,Final,Standards Track,,3.14,3.14,3.14,3.14,3.14,3.14,Disallow return/break/continue that exit a finally block
+766,Draft,Informational,packaging,,,,,,,Explicit Priority Choices Among Multiple Indexes
+767,Draft,Standards Track,typing,3.15,3.15,,,,,Annotating Read-Only Attributes
+768,Final,Standards Track,,3.14,3.14,3.14,3.14,3.14,3.14,Safe external debugger interface for CPython
+769,Rejected,Standards Track,,3.14,3.14,,,,,"Add a 'default' keyword argument to 'attrgetter', 'itemgetter' and 'getitem'"
+770,Final,Standards Track,packaging,,,,,,,Improving measurability of Python packages with Software Bill-of-Materials
+771,Draft,Standards Track,packaging,,,,,,,Default Extras for Python Software Packages
+772,Accepted,Process,"governance, packaging",,,,,,,Packaging Council governance process
+773,Final,Standards Track,release,,,,,,,A Python Installation Manager for Windows
+774,Withdrawn,Standards Track,,3.14,3.14,,,,,Removing the LLVM requirement for JIT builds
+775,Withdrawn,Standards Track,,3.14,3.14,,,,,Make zlib required to build CPython
+776,Active,Informational,,3.14,3.14,,3.14,,3.14,Emscripten Support
+777,Draft,Standards Track,packaging,,,,,,,How to Re-invent the Wheel
+778,Deferred,Standards Track,packaging,,,,,,,Supporting Symlinks in Wheels
+779,Final,Standards Track,,3.14,3.14,,3.14,,3.14,Criteria for supported status for free-threaded Python
+780,Draft,Standards Track,packaging,3.14,3.14,,,,,ABI features as environment markers
+781,Draft,Standards Track,typing,3.15,3.15,,,,,Make ``TYPE_CHECKING`` a built-in constant
+782,Final,Standards Track,,3.15,3.15,,3.15,,3.15,Add PyBytesWriter C API
+783,Accepted,Standards Track,packaging,,,,,,,Emscripten Packaging
+784,Final,Standards Track,,3.14,3.14,3.14,3.14,3.14,3.14,Adding Zstandard to the standard library
+785,Draft,Standards Track,,3.14,3.14,,,,,New methods for easier handling of ``ExceptionGroup``\ s
+786,Draft,Standards Track,,3.15,3.15,,,,,Precision and modulo-precision flag format specifiers for integer fields
+787,Deferred,Standards Track,,3.15,3.15,,,,,Safer subprocess usage using t-strings
+788,Final,Standards Track,,3.15,3.15,3.15,3.15,3.15,3.15,Protecting the C API from Interpreter Finalization
+789,Draft,Standards Track,,3.14,3.14,,,,,Preventing task-cancellation bugs by limiting yield in async generators
+790,Active,Informational,release,3.15,3.15,,3.15,,3.15,Python 3.15 Release Schedule
+791,Final,Standards Track,,3.15,3.15,,3.15,,3.15,math.integer --- submodule for integer-specific mathematics functions
+792,Final,Standards Track,packaging,,,,,,,Project status markers in the simple index
+793,Final,Standards Track,,3.15,3.15,,3.15,,3.15,PyModExport: A new entry point for C extension modules
+794,Accepted,Standards Track,packaging,,,,,,,Import Name Metadata
+797,Rejected,Standards Track,,3.16,3.16,,,,,Shared Object Proxies
+798,Final,Standards Track,,3.15,3.15,3.15,3.15,3.15,3.15,Unpacking in Comprehensions
+799,Final,Standards Track,,3.15,3.15,3.15,3.15,3.15,3.15,A dedicated ``profiling`` package for organizing Python profiling tools
+800,Final,Standards Track,typing,3.15,3.15,,3.15,,3.15,Disjoint bases in the type system
+801,Active,Informational,,,,,,,,Reserved
+802,Draft,Standards Track,,3.15,3.15,,,,,Display Syntax for the Empty Set
+803,Final,Standards Track,,3.15,3.15,3.15,3.15,3.15,3.15,"""abi3t"": Stable ABI for Free-Threaded Builds"
+804,Draft,Standards Track,packaging,,,,,,,An external dependency registry and name mapping mechanism
+805,Draft,Standards Track,,3.16,3.16,,,,,Safe Parallel Python
+806,Rejected,Standards Track,,3.15,3.15,,,,,Mixed sync/async context managers with precise async marking
+807,Draft,Standards Track,packaging,,,,,,,Index support for Trusted Publishing
+808,Accepted,Standards Track,packaging,,,,,,,Including static values in dynamic metadata
+809,Draft,Standards Track,,3.15,3.15,,,,,Stable ABI for the Future
+810,Final,Standards Track,,3.15,3.15,3.15,3.15,3.15,3.15,Explicit lazy imports
+811,Active,Process,governance,,,,,,,Defining Python Security Response Team membership and responsibilities
+813,Draft,Standards Track,,3.16,3.16,,,,,The Pretty Print Protocol
+814,Final,Standards Track,,3.15,3.15,3.15,3.15,3.15,3.15,Add frozendict built-in type
+815,Final,Standards Track,packaging,,,,,,,Deprecate ``RECORD.jws`` and ``RECORD.p7s``
+816,Active,Informational,,,,,,,,WASI Support
+817,Draft,Informational,packaging,,,,,,,Wheel Variants: Beyond Platform Tags
+818,Draft,Standards Track,,3.16,3.16,,,,,Adding the Core of the Pyodide Foreign Function Interface to Python
+819,Draft,Standards Track,packaging,,,,,,,JSON Package Metadata
+820,Final,Standards Track,,3.15,3.15,,3.15,,3.15,PySlot: Unified slot system for the C API
+821,Draft,Standards Track,typing,3.15,3.15,,,,,Support for unpacking TypedDicts in Callable type hints
+822,Draft,Standards Track,,3.16,3.16,,,,,Dedented Multiline String (d-string)
+823,Draft,Standards Track,,3.16,3.16,,,,,None-aware access operators
+824,Draft,Standards Track,,3.16,3.16,,,,,None-coalescing operators
+825,Provisional,Standards Track,packaging,,,,,,,Wheel Variants: Package Format
+826,Active,Informational,release,3.16,3.16,,,,,Python 3.16 Release Schedule
+827,Draft,Standards Track,typing,3.16,3.16,,,,,Type Manipulation
+828,Accepted,Standards Track,,3.16,3.16,,,,,Supporting 'yield from' in asynchronous generators
+829,Final,Standards Track,,3.15,3.15,3.15,3.15,3.15,3.15,Package Startup Configuration Files
+830,Draft,Standards Track,,3.16,3.16,,,,,Add timestamps to exceptions and tracebacks
+831,Final,Standards Track,,3.15,3.15,3.15,3.15,3.15,3.15,Frame Pointers Everywhere: Enabling System-Level Observability for Python
+832,Draft,Standards Track,packaging,,,,,,,Virtual environment discovery
+833,Final,Standards Track,packaging,,,,,,,Freezing the HTML simple repository API
+835,Draft,Standards Track,typing,3.16,3.16,,,,,Shorthand syntax for Annotated type metadata
+836,Withdrawn,Standards Track,,3.16,3.16,,,,,JIT Go Brrr: The Path to a Supported JIT Compiler for CPython
+837,Draft,Standards Track,,3.16,3.16,,,,,Extensible JSON serialization
+838,Draft,Standards Track,,3.16,3.16,,,,,Adding python-version to pyvenv.cfg
+839,Draft,Standards Track,,3.16,3.16,,,,,PyFrozenSetWriter and PyFrozenDictWriter C API
+840,Draft,Standards Track,,3.16,3.16,,,,,Name Resolution in Class Namespaces
+841,Draft,Standards Track,,3.16,3.16,,,,,Adding Frozen Syntax to Optimize Immutable Types
+842,Withdrawn,Standards Track,,3.16,3.16,,,,,Module Exports
+843,Draft,Standards Track,,3.16,3.16,,,,,Export Statement for DRY Re-exports
+844,Draft,Standards Track,,3.16,3.16,,,,,``public`` and ``private`` builtins
+845,Draft,Standards Track,,3.16,3.16,,,,,Leading-Dot Value Patterns
+846,Draft,Standards Track,typing,3.16,3.16,,,,,Docstrings for Type Aliases
+847,Draft,Standards Track,packaging,,,,,,,Problem Details for the Simple Repository API
+848,Draft,Standards Track,,3.16,3.16,,,,,Generational Incremental Garbage Collection
+849,Draft,Standards Track,typing,3.16,3.16,,,,,More Expressive Type Expressions
+850,Draft,Standards Track,packaging,,,,,,,Wheel Variants: Providers
+851,Draft,Standards Track,,3.16,3.16,,,,,Add list.discard()
+2026,Rejected,Process,,3.26,3.26,,,,,Calendar versioning for Python
+3000,Final,Process,,,,,,,2.6,Python 3000
+3001,Withdrawn,Process,,,,,,,,Procedure for reviewing and improving standard library modules
+3002,Final,Process,,,,,,,,Procedure for Backwards-Incompatible Changes
+3003,Final,Process,,,,,,,,Python Language Moratorium
+3099,Final,Process,,,,,,,,Things that will Not Change in Python 3000
+3100,Final,Process,,,,,,,2.6,Miscellaneous Python 3.0 Plans
+3101,Final,Standards Track,,3.0,3.0,3.0,3.0,2.6;3.0,2.6;3.0,Advanced String Formatting
+3102,Final,Standards Track,,3.0,3.0,,3.0,,3.0,Keyword-Only Arguments
+3103,Rejected,Standards Track,,3.0,3.0,,,,,A Switch/Case Statement
+3104,Final,Standards Track,,3.0,3.0,,3.0,,3.0,Access to Names in Outer Scopes
+3105,Final,Standards Track,,3.0,3.0,,3.0,2.6,2.6;3.0,Make print a function
+3106,Final,Standards Track,,3.0,3.0,,,2.7,2.7,"Revamping dict.keys(), .values() and .items()"
+3107,Final,Standards Track,,3.0,3.0,,3.0,,3.0;3.5;3.7,Function Annotations
+3108,Final,Standards Track,,3.0,3.0,,3.0,,3.0,Standard Library Reorganization
+3109,Final,Standards Track,,3.0,3.0,,3.0,,3.0,Raising Exceptions in Python 3000
+3110,Final,Standards Track,,3.0,3.0,,3.0,2.6,2.6;3.0,Catching Exceptions in Python 3000
+3111,Final,Standards Track,,3.0,3.0,,3.0,,3.0,Simple input built-in in Python 3000
+3112,Final,Standards Track,,3.0,3.0,,,2.6,2.6,Bytes literals in Python 3000
+3113,Final,Standards Track,,3.0,3.0,,3.0,,3.0,Removal of Tuple Parameter Unpacking
+3114,Final,Standards Track,,3.0,3.0,,3.0,,3.0,Renaming iterator.next() to iterator.__next__()
+3115,Final,Standards Track,,3.0,3.0,,3.0,,3.0;3.3,Metaclasses in Python 3000
+3116,Final,Standards Track,,3.0,3.0,,3.1,2.6,2.6;3.1,New I/O
+3117,Rejected,Standards Track,,3.0,3.0,,,,,Postfix type declarations
+3118,Final,Standards Track,,3.0,3.0,3.3,3.0,2.6;3.3,2.6;3.0;3.3;3.8,Revising the buffer protocol
+3119,Final,Standards Track,,3.0,3.0,,,2.6,2.6,Introducing Abstract Base Classes
+3120,Final,Standards Track,,3.0,3.0,,3.0,,3.0,Using UTF-8 as the default source encoding
+3121,Final,Standards Track,,3.0,3.0,,3.0,,3.0,Extension Module Initialization and Finalization
+3122,Rejected,Standards Track,,,,,,,,Delineation of the main module
+3123,Final,Standards Track,,3.0,3.0,,3.0,,3.0,Making PyObject_HEAD conform to standard C
+3124,Deferred,Standards Track,,,,,,,,"Overloading, Generic Functions, Interfaces, and Adaptation"
+3125,Rejected,Standards Track,,,,,,,,Remove Backslash Continuation
+3126,Rejected,Standards Track,,,,,,,,Remove Implicit String Concatenation
+3127,Final,Standards Track,,3.0,3.0,,,2.6,2.6,Integer Literal Support and Syntax
+3128,Rejected,Standards Track,,"2.6, 3.0",2.6;3.0,,,,,BList: A Faster List-like Type
+3129,Final,Standards Track,,3.0,3.0,,,2.6,2.6,Class Decorators
+3130,Rejected,Standards Track,,3.0,3.0,,,,,Access to Current Module/Class/Function
+3131,Final,Standards Track,,3.0,3.0,,3.0,,3.0,Supporting Non-ASCII Identifiers
+3132,Final,Standards Track,,3.0,3.0,,3.0,,3.0,Extended Iterable Unpacking
+3133,Rejected,Standards Track,,3.0,3.0,,,,,Introducing Roles
+3134,Final,Standards Track,,3.0,3.0,,3.0,,3.0,Exception Chaining and Embedded Tracebacks
+3135,Final,Standards Track,,3.0,3.0,,3.0,,3.0,New Super
+3136,Rejected,Standards Track,,3.1,3.1,,,,,Labeled break and continue
+3137,Final,Standards Track,,3.0,3.0,,,2.7,2.7,Immutable Bytes and Mutable Buffer
+3138,Final,Standards Track,,3.0,3.0,,3.0,,3.0,String representation in Python 3000
+3139,Rejected,Standards Track,,3.0,3.0,,,,,"Cleaning out sys and the ""interpreter"" module"
+3140,Rejected,Standards Track,,,,,,,,"str(container) should call str(item), not repr(item)"
+3141,Final,Standards Track,,3.0,3.0,,,2.6,2.6,A Type Hierarchy for Numbers
+3142,Rejected,Standards Track,,3.0,3.0,,,,,"Add a ""while"" clause to generator expressions"
+3143,Deferred,Standards Track,,3.x,,,,,,Standard daemon process library
+3144,Final,Standards Track,,3.3,3.3,,3.3,,3.3,IP Address Manipulation Library for the Python Standard Library
+3145,Withdrawn,Standards Track,,3.2,3.2,,,,,Asynchronous I/O For subprocess.Popen
+3146,Withdrawn,Standards Track,,3.3,3.3,,,,,Merging Unladen Swallow into CPython
+3147,Final,Standards Track,,3.2,3.2,3.2,3.2,3.2,3.2;3.3,PYC Repository Directories
+3148,Final,Standards Track,,3.2,3.2,3.2,3.2,3.2,3.2,futures - execute computations asynchronously
+3149,Final,Standards Track,,3.2,3.2,3.2,3.2,3.2,3.2,ABI version tagged .so files
+3150,Deferred,Standards Track,,3.4,3.4,,,,,"Statement local namespaces (aka ""given"" clause)"
+3151,Final,Standards Track,,3.3,3.3,3.3,3.3,3.3,3.3,Reworking the OS and IO exception hierarchy
+3152,Rejected,Standards Track,,3.3,3.3,,,,,Cofunctions
+3153,Superseded,Standards Track,,,,,,,,Asynchronous IO support
+3154,Final,Standards Track,,3.4,3.4,,3.4,,3.4,Pickle protocol version 4
+3155,Final,Standards Track,,3.3,3.3,3.3,3.3,3.3,3.3,Qualified name for classes and functions
+3156,Final,Standards Track,,3.3,3.3,,3.4,,3.4,"Asynchronous IO Support Rebooted: the ""asyncio"" Module"
+3333,Final,Informational,,,,3.2,3.2,3.2,3.2;3.11,Python Web Server Gateway Interface v1.0.1
+8000,Final,Informational,governance,,,,,,,Python Language Governance Proposal Overview
+8001,Final,Process,governance,,,,,,,Python Governance Voting Process
+8002,Final,Informational,governance,,,,,,,Open Source Governance Survey
+8010,Rejected,Informational,governance,,,,,,,The Technical Leader Governance Model
+8011,Rejected,Informational,governance,,,,,,,Python Governance Model Lead by Trio of Pythonistas
+8012,Rejected,Informational,governance,,,,,,,The Community Governance Model
+8013,Rejected,Informational,governance,,,,,,,The External Council Governance Model
+8014,Rejected,Informational,governance,,,,,,,The Commons Governance Model
+8015,Rejected,Informational,governance,,,,,,,Organization of the Python community
+8016,Accepted,Informational,governance,,,,,,,The Steering Council Model
+8100,Final,Informational,governance,,,,,,,January 2019 Steering Council election
+8101,Final,Informational,governance,,,,,,,2020 Term Steering Council election
+8102,Final,Informational,governance,,,,,,,2021 Term Steering Council election
+8103,Final,Informational,governance,,,,,,,2022 Term Steering Council election
+8104,Final,Informational,governance,,,,,,,2023 Term Steering Council election
+8105,Final,Informational,governance,,,,,,,2024 Term Steering Council election
+8106,Final,Informational,governance,,,,,,,2025 Term Steering Council election
+8107,Final,Informational,governance,,,,,,,2026 Term Steering Council election

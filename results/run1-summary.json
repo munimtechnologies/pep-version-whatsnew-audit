@@ -1,0 +1,576 @@
+{
+ "P1a": {
+  "bar": 0.9,
+  "match": 100,
+  "mismatches": [
+   {
+    "first_py3_head": "3.13",
+    "first_py3_mention": "3.11",
+    "header": [
+     "3.11"
+    ],
+    "heads": [
+     "3.13"
+    ],
+    "mentions": [
+     "3.11",
+     "3.12",
+     "3.13"
+    ],
+    "number": 594,
+    "python_version": "3.11",
+    "status": "Final",
+    "title": "Removing dead batteries from the standard library",
+    "topic": "",
+    "type": "Standards Track"
+   },
+   {
+    "first_py3_head": "3.3",
+    "first_py3_mention": "3.0",
+    "header": [
+     "3.0"
+    ],
+    "heads": [
+     "2.6",
+     "3.3"
+    ],
+    "mentions": [
+     "2.6",
+     "3.0",
+     "3.3",
+     "3.8"
+    ],
+    "number": 3118,
+    "python_version": "3.0",
+    "status": "Final",
+    "title": "Revising the buffer protocol",
+    "topic": "",
+    "type": "Standards Track"
+   }
+  ],
+  "n": 102,
+  "share": 0.9803921568627451,
+  "verdict": "HELD"
+ },
+ "P1b": {
+  "bar": 0.9,
+  "match": 182,
+  "mismatches": [
+   {
+    "first_py3_head": null,
+    "first_py3_mention": "3.10",
+    "header": [
+     "3.11"
+    ],
+    "heads": [],
+    "mentions": [
+     "3.10",
+     "3.11"
+    ],
+    "number": 624,
+    "python_version": "3.11",
+    "status": "Final",
+    "title": "Remove Py_UNICODE encoder APIs",
+    "topic": "",
+    "type": "Standards Track"
+   },
+   {
+    "first_py3_head": null,
+    "first_py3_mention": "3.8",
+    "header": [
+     "3.12"
+    ],
+    "heads": [],
+    "mentions": [
+     "3.8",
+     "3.9",
+     "3.10",
+     "3.11",
+     "3.12"
+    ],
+    "number": 706,
+    "python_version": "3.12",
+    "status": "Final",
+    "title": "Filter for tarfile.extractall",
+    "topic": "",
+    "type": "Standards Track"
+   },
+   {
+    "first_py3_head": null,
+    "first_py3_mention": "3.1",
+    "header": [
+     "3.0"
+    ],
+    "heads": [
+     "2.6"
+    ],
+    "mentions": [
+     "2.6",
+     "3.1"
+    ],
+    "number": 3116,
+    "python_version": "3.0",
+    "status": "Final",
+    "title": "New I/O",
+    "topic": "",
+    "type": "Standards Track"
+   },
+   {
+    "first_py3_head": null,
+    "first_py3_mention": "3.4",
+    "header": [
+     "3.3"
+    ],
+    "heads": [],
+    "mentions": [
+     "3.4"
+    ],
+    "number": 3156,
+    "python_version": "3.3",
+    "status": "Final",
+    "title": "Asynchronous IO Support Rebooted: the \"asyncio\" Module",
+    "topic": "",
+    "type": "Standards Track"
+   }
+  ],
+  "n": 186,
+  "share": 0.978494623655914,
+  "verdict": "HELD"
+ },
+ "P2": {
+  "bar": 0.5,
+  "header_earlier": 2,
+  "n": 4,
+  "share": 0.5,
+  "verdict": "FAILED"
+ },
+ "P3": {
+  "bar": 0.8,
+  "hit": 184,
+  "misses": [
+   {
+    "first_py3_head": null,
+    "first_py3_mention": null,
+    "header": [
+     "3.1"
+    ],
+    "heads": [],
+    "mentions": [],
+    "number": 383,
+    "python_version": "3.1",
+    "status": "Final",
+    "title": "Non-decodable Bytes in System Character Interfaces",
+    "topic": "",
+    "type": "Standards Track"
+   },
+   {
+    "first_py3_head": null,
+    "first_py3_mention": null,
+    "header": [
+     "3.3"
+    ],
+    "heads": [],
+    "mentions": [],
+    "number": 415,
+    "python_version": "3.3",
+    "status": "Final",
+    "title": "Implement context suppression with exception attributes",
+    "topic": "",
+    "type": "Standards Track"
+   },
+   {
+    "first_py3_head": null,
+    "first_py3_mention": null,
+    "header": [
+     "3.3"
+    ],
+    "heads": [],
+    "mentions": [],
+    "number": 417,
+    "python_version": "3.3",
+    "status": "Final",
+    "title": "Including mock in the Standard Library",
+    "topic": "",
+    "type": "Standards Track"
+   },
+   {
+    "first_py3_head": null,
+    "first_py3_mention": null,
+    "header": [
+     "3.4"
+    ],
+    "heads": [],
+    "mentions": [],
+    "number": 425,
+    "python_version": "3.4",
+    "status": "Final",
+    "title": "Compatibility Tags for Built Distributions",
+    "topic": "packaging",
+    "type": "Standards Track"
+   },
+   {
+    "first_py3_head": null,
+    "first_py3_mention": null,
+    "header": [
+     "3.7"
+    ],
+    "heads": [],
+    "mentions": [],
+    "number": 561,
+    "python_version": "3.7",
+    "status": "Final",
+    "title": "Distributing and Packaging Type Information",
+    "topic": "packaging, typing",
+    "type": "Standards Track"
+   },
+   {
+    "first_py3_head": null,
+    "first_py3_mention": null,
+    "header": [
+     "3.12"
+    ],
+    "heads": [],
+    "mentions": [],
+    "number": 687,
+    "python_version": "3.12",
+    "status": "Final",
+    "title": "Isolating modules in the standard library",
+    "topic": "",
+    "type": "Standards Track"
+   },
+   {
+    "first_py3_head": null,
+    "first_py3_mention": null,
+    "header": [
+     "3.12"
+    ],
+    "heads": [],
+    "mentions": [],
+    "number": 689,
+    "python_version": "3.12",
+    "status": "Final",
+    "title": "Unstable C API tier",
+    "topic": "",
+    "type": "Standards Track"
+   },
+   {
+    "first_py3_head": null,
+    "first_py3_mention": null,
+    "header": [
+     "3.12"
+    ],
+    "heads": [],
+    "mentions": [],
+    "number": 721,
+    "python_version": "3.12",
+    "status": "Final",
+    "title": "Using tarfile.data_filter for source distribution extraction",
+    "topic": "packaging",
+    "type": "Standards Track"
+   },
+   {
+    "first_py3_head": null,
+    "first_py3_mention": null,
+    "header": [
+     "3.0"
+    ],
+    "heads": [
+     "2.7"
+    ],
+    "mentions": [
+     "2.7"
+    ],
+    "number": 3106,
+    "python_version": "3.0",
+    "status": "Final",
+    "title": "Revamping dict.keys(), .values() and .items()",
+    "topic": "",
+    "type": "Standards Track"
+   },
+   {
+    "first_py3_head": null,
+    "first_py3_mention": null,
+    "header": [
+     "3.0"
+    ],
+    "heads": [
+     "2.6"
+    ],
+    "mentions": [
+     "2.6"
+    ],
+    "number": 3112,
+    "python_version": "3.0",
+    "status": "Final",
+    "title": "Bytes literals in Python 3000",
+    "topic": "",
+    "type": "Standards Track"
+   },
+   {
+    "first_py3_head": null,
+    "first_py3_mention": "3.1",
+    "header": [
+     "3.0"
+    ],
+    "heads": [
+     "2.6"
+    ],
+    "mentions": [
+     "2.6",
+     "3.1"
+    ],
+    "number": 3116,
+    "python_version": "3.0",
+    "status": "Final",
+    "title": "New I/O",
+    "topic": "",
+    "type": "Standards Track"
+   },
+   {
+    "first_py3_head": null,
+    "first_py3_mention": null,
+    "header": [
+     "3.0"
+    ],
+    "heads": [
+     "2.6"
+    ],
+    "mentions": [
+     "2.6"
+    ],
+    "number": 3119,
+    "python_version": "3.0",
+    "status": "Final",
+    "title": "Introducing Abstract Base Classes",
+    "topic": "",
+    "type": "Standards Track"
+   },
+   {
+    "first_py3_head": null,
+    "first_py3_mention": null,
+    "header": [
+     "3.0"
+    ],
+    "heads": [
+     "2.6"
+    ],
+    "mentions": [
+     "2.6"
+    ],
+    "number": 3127,
+    "python_version": "3.0",
+    "status": "Final",
+    "title": "Integer Literal Support and Syntax",
+    "topic": "",
+    "type": "Standards Track"
+   },
+   {
+    "first_py3_head": null,
+    "first_py3_mention": null,
+    "header": [
+     "3.0"
+    ],
+    "heads": [
+     "2.6"
+    ],
+    "mentions": [
+     "2.6"
+    ],
+    "number": 3129,
+    "python_version": "3.0",
+    "status": "Final",
+    "title": "Class Decorators",
+    "topic": "",
+    "type": "Standards Track"
+   },
+   {
+    "first_py3_head": null,
+    "first_py3_mention": null,
+    "header": [
+     "3.0"
+    ],
+    "heads": [
+     "2.7"
+    ],
+    "mentions": [
+     "2.7"
+    ],
+    "number": 3137,
+    "python_version": "3.0",
+    "status": "Final",
+    "title": "Immutable Bytes and Mutable Buffer",
+    "topic": "",
+    "type": "Standards Track"
+   },
+   {
+    "first_py3_head": null,
+    "first_py3_mention": null,
+    "header": [
+     "3.0"
+    ],
+    "heads": [
+     "2.6"
+    ],
+    "mentions": [
+     "2.6"
+    ],
+    "number": 3141,
+    "python_version": "3.0",
+    "status": "Final",
+    "title": "A Type Hierarchy for Numbers",
+    "topic": "",
+    "type": "Standards Track"
+   },
+   {
+    "first_py3_head": null,
+    "first_py3_mention": "3.4",
+    "header": [
+     "3.3"
+    ],
+    "heads": [],
+    "mentions": [
+     "3.4"
+    ],
+    "number": 3156,
+    "python_version": "3.3",
+    "status": "Final",
+    "title": "Asynchronous IO Support Rebooted: the \"asyncio\" Module",
+    "topic": "",
+    "type": "Standards Track"
+   }
+  ],
+  "n": 201,
+  "share": 0.9154228855721394,
+  "verdict": "HELD"
+ },
+ "P4": {
+  "count": 1,
+  "last_version": "3.14",
+  "min": 3,
+  "peps": [
+   {
+    "first_py3_head": null,
+    "first_py3_mention": "3.14",
+    "header": [
+     "3.14"
+    ],
+    "heads": [],
+    "mentions": [
+     "3.14"
+    ],
+    "number": 739,
+    "python_version": "3.14",
+    "status": "Accepted",
+    "title": "``build-details.json`` 1.0 \u2014 a static description file for Python build details",
+    "topic": "packaging",
+    "type": "Standards Track"
+   }
+  ],
+  "verdict": "FAILED"
+ },
+ "descriptive": {
+  "header_headlined_anywhere_share": 0.9803921568627451,
+  "headlined_inactive": [],
+  "missing_header_headlined": [
+   {
+    "first_py3_head": "3.4",
+    "first_py3_mention": "3.4",
+    "header": [],
+    "heads": [
+     "2.7",
+     "3.4"
+    ],
+    "mentions": [
+     "2.7",
+     "3.4"
+    ],
+    "number": 453,
+    "python_version": null,
+    "status": "Final",
+    "title": "Explicit bootstrapping of pip in Python installations",
+    "topic": "",
+    "type": "Standards Track"
+   }
+  ],
+  "multi_version_headers": 18,
+  "py2_line": {
+   "match": 44,
+   "n": 46
+  }
+ },
+ "n_final_single_3x": 201,
+ "n_peps": 747,
+ "n_single_3x_header": 335,
+ "n_standards_track": 588,
+ "source": {
+  "cpython_ref": "683fca8498053d63a77ff48df9ee47153778a765",
+  "fetched_at": "2026-10-31T18:59:59Z",
+  "peps_json_sha256": "bb8fea4b312906c4532bb368b11f7b5c0d48114d36797f809017e5af1f371ecd",
+  "peps_json_url": "https://peps.python.org/api/peps.json",
+  "whatsnew_sha256": {
+   "2.0": "e2b4e2468f6b57a806fef46011138a374d97bf846edec86528842a417b3ef90e",
+   "2.1": "438429eeb3c704092ab7cb58890cec6b12c9304f5106031cb5519d4d617df9a7",
+   "2.2": "5066a147edd3f756c1f47e3fe340b09836a99f80352997e3420be0253dbd19bc",
+   "2.3": "8e1ee1a4f685ed4819c3f9122cdc20b2dd3d75e1972034a43a34852d9c906852",
+   "2.4": "d16796d2b4cf36912955ee1afc614d5eea111a1cb91e3767b9778a3414cba9b4",
+   "2.5": "eb188ed4bbb2b05b595832be98c180ca0986e40f8ab3461fbf32b87f35330990",
+   "2.6": "89fa25ef06ae9531b6c42f5621def72ac2df84a3ca321886756bf7efa32215d0",
+   "2.7": "c4de960cb680ea44d45152096f5cffb23565fed46efa19661ec27c87700482b6",
+   "3.0": "7bf2cccc200e09a08bfbb75b6190311bfb8c63558d77f77894a7128c380498e6",
+   "3.1": "07ad7a4711ce14900fdfa12fcac5e7f8cd8f8cdb639f51c1410c40cead35d7b1",
+   "3.10": "778df5e3ed90bf4ec17316befe505b8c6a6f585fabc2f02d37e0399a1a8eba19",
+   "3.11": "d4cb9ed9f37aff5281de87f0f763c62a082e2163a31a82529c68415af48813e8",
+   "3.12": "c130d8ac6ff671f64951614105d581a26c8a407bca115da79c7c7f04933691b0",
+   "3.13": "8d878b65117c4693c3d901c43284745bae629b4b01877ef8ecae0ebc5765f21e",
+   "3.14": "1cabfa261c88a1bcdba8777ed5d87ad7f8730025c0d7f7ca52162ed4d0e641fe",
+   "3.15": "7e07c960b60b2e0c7438d8ac96630386a2c3d2a9fc9a99cda7bd70a3e05e5227",
+   "3.16": "961563f025c4ff6f5678f599d6d10eccefeb7f9e797df73a3100ba385661e371",
+   "3.2": "f011e37f379a85ff19dd2c16aba7afa0a56decceeb6fc8a31b93196c7f5ea74d",
+   "3.3": "1a2b5fb9ec005429230fcf7a1a8bf4a23b004c51a742d26ef62e056ccb3d8a8b",
+   "3.4": "ea4ad80e87eb165f3ca81d493ceecb82173b2b82b85ed400a75e411159f4d4fb",
+   "3.5": "81dc9b704f329c985d274b304f89253e09e041f2841c0edf91a8d1d1481710ff",
+   "3.6": "5a9488e322b05bcc032c20db847ee34b3e502f63e5ec2e6d82d33b4632ca43bf",
+   "3.7": "f8643d6f0a194c9deb3bf3e80b31870fc3c227bcb3bdeb889fe1d0cc971e227c",
+   "3.8": "52dc897a4ef0606891a6536e4748e2a7acf888af5cf84494dbd26e17ba2f86b1",
+   "3.9": "587013f7859242c37d12b23cfbc032c29912f32926d6710e34ff17d8c2f70772"
+  }
+ },
+ "status_hist": {
+  "Accepted": 11,
+  "Active": 38,
+  "Deferred": 35,
+  "Draft": 56,
+  "Final": 375,
+  "Provisional": 1,
+  "Rejected": 132,
+  "Superseded": 25,
+  "Withdrawn": 74
+ },
+ "whatsnew_versions": [
+  "2.0",
+  "2.1",
+  "2.2",
+  "2.3",
+  "2.4",
+  "2.5",
+  "2.6",
+  "2.7",
+  "3.0",
+  "3.1",
+  "3.2",
+  "3.3",
+  "3.4",
+  "3.5",
+  "3.6",
+  "3.7",
+  "3.8",
+  "3.9",
+  "3.10",
+  "3.11",
+  "3.12",
+  "3.13",
+  "3.14",
+  "3.15",
+  "3.16"
+ ]
+}
